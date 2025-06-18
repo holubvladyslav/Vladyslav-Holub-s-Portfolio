@@ -85,9 +85,3 @@ This dashboard and analysis could be useful for:
 ## Links
 - [Tableau dashboard](https://public.tableau.com/app/profile/vladyslav.holub7989/viz/project_cars_2/Dashboard2)
 - [LinkedIn](https://www.linkedin.com/in/vladyslav-holub-67a325248/?originalSubdomain=pl)
-
-## About Me
-
-I’m a data analyst who enjoys working with real-world datasets, especially in fields that I personally like – such as **automotive** and **consumer behavior**. This project helped me grow in data modeling, writing advanced SQL, and visual storytelling with Tableau.
-
-Thanks for visiting! 🙌
