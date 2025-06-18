@@ -6,13 +6,14 @@
 -- car performance, rental trends, pricing, and location popularity.
 
 -- The queries cover:
--- 1. Descriptive statistics for car models
--- 2. Median-based profitability analysis
--- 3. High-rated and high-reviewed vehicles
--- 4. Profit ratios (daily rate vs. car price)
--- 5. Vehicle types with best rental potential
--- 6. Cities with highest average rating
--- 7. Most rented vehicles by trip count
+-- 1. Basic Descriptive Statistics
+-- 2. Average Daily Rate, Estimated Price, and the Ratio Between Them by Vehicle Type
+-- 3. Vehicles with the Best Average Ratings
+-- 4. Most popular vehicles considering number of reviews
+-- 5. Most Profitable Vehicle Makes
+-- 6. Highest Rental Potential Among Vehicle Types
+-- 7. Locations by Highest Average Rating
+-- 8. Most Renters Trips Vehicles
 
 -- The database was normalized into 3 tables:
 -- - locations
