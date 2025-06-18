@@ -1,6 +1,6 @@
 ## Car Rental Dashboard – Data Analysis Project Inspired by Turo
 
-The whole project was inspired by the popular peer-to-peer car rental platform Turo. The idea was simple: using dataset that simulates real-life business data related to car rentals in order to help users choose the best vehicle to buy and rent out. The analysis was done under different perspectives: price, popularity, renters satisfaction and ROI.
+The whole project was inspired by the popular peer-to-peer car rental platform Turo. The idea was simple: to use a dataset that simulates real-life business data related to car rentals in order to help users choose the best vehicle to buy and rent out. The analysis was done under different perspectives: price, popularity, renters satisfaction and ROI.
 
 ## Project Goal
 
