@@ -11,11 +11,11 @@ My goal was to build a Tableau dashboard and support it with strong data analyti
 - Explore rental performance by location
 - Compare daily rental rates and estimated car prices
 
-Also I can not hide the fact that I am passionate about automotive industry, so working on this project was both useful and also exciting for me.
+Also I can not hide the fact that I am passionate about automotive industry, so working on this project was both useful and exciting for me.
 
 ## Data Cleaning
 
-First decision was to do data cleansing stage:
+First decision was to do a data cleansing stage:
 - Fixed inconsistent vehicle types (e.g. replaced general “car” type with sedan, coupe, hatchback, convertible). This task was half-automated by AI
 - Fixed duplicate entries in `vehicle_make` like “Mercedes-Benz” vs “Mercedes Benz”
 - Filled 75 missing values in `fueltype` based on make & model groups also by using help of AI
