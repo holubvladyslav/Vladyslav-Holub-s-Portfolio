@@ -27,10 +27,6 @@
 
 -- SQL Database Schema Description
 -- --------------------------------
--- The original dataset was a denormalized flat file containing rental, vehicle, and location data.
--- It was normalized into 3 relational tables to ensure data consistency and enable flexible analytics.
--- This file includes CREATE TABLE statements for the normalized structure, with details on data types and character limits.
-
 -- Table: vehicles
 -- Description: Contains unique vehicle-level attributes.
 -- Columns:
