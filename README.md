@@ -63,7 +63,7 @@ This dashboard and analysis could be useful for:
 
 - `project_queries.sql` – all SQL scripts used in the analysis
 - `dashboard.twbx` – Tableau workbook
-- `data_cleaned.csv` – cleaned and enriched dataset
+- `car_rental.csv` – cleaned and enriched dataset
 - `README.md` – project documentation
 
 
