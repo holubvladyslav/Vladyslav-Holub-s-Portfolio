@@ -32,9 +32,9 @@ This restructuring helps ensure data integrity and simplifies analytical queries
 ## Data Cleaning
 
 First decision was to do a data cleansing stage:
-- Fixed inconsistent vehicle types (e.g. replaced general “car” type with sedan, coupe, hatchback, convertible). This task was half-automated by AI
+- Fixed inconsistent vehicle types (e.g. replaced general “car” type with sedan, coupe, hatchback, convertible). This task was half-automated
 - Fixed duplicate entries in `vehicle_make` like “Mercedes-Benz” vs “Mercedes Benz”
-- Filled 75 missing values in `fueltype` based on make & model groups also by using help of AI
+- Filled 75 missing values in `fueltype` based on make & model groups. This part also was half-automated
 - Added an `estimated_car_price` column using AI model predictions
 
 ## Data Normalization
