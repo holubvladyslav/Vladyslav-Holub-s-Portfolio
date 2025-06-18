@@ -137,7 +137,7 @@ SELECT
   
   vehicle_model,
   
-  SUM(reviewcount) as reviewcount,
+  SUM(reviewcount) as sum_reviewcount,
   
   ROUND(AVG(rating), 2) as avg_rating
 
@@ -149,7 +149,7 @@ JOIN vehicles v
 
 GROUP BY vehicle_make, vehicle_model
 
-ORDER BY SUM(reviewcount) DESC;
+ORDER BY sum_reviewcount DESC;
 
 
 -- Most Profitable Vehicle Makes
