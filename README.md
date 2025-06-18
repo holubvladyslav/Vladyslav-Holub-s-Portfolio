@@ -67,8 +67,8 @@ This dashboard and analysis could be useful for:
 - [`README.md`](https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/README.md) – project documentation
 
 ## Links
-[Tableau dashboard](https://public.tableau.com/app/profile/vladyslav.holub7989/viz/project_cars_2/Dashboard2)
-[LinkedIn](https://www.linkedin.com/in/vladyslav-holub-67a325248/?originalSubdomain=pl)
+-[Tableau dashboard](https://public.tableau.com/app/profile/vladyslav.holub7989/viz/project_cars_2/Dashboard2)
+-[LinkedIn](https://www.linkedin.com/in/vladyslav-holub-67a325248/?originalSubdomain=pl)
 
 ## About Me
 
