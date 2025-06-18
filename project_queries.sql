@@ -59,6 +59,7 @@ ORDER BY avg_trips DESC, avg_rating DESC, avg_reviewcount DESC;
 
 
 -- Average Daily Rate, Estimated Price, and the Ratio Between Them by Vehicle Type
+
 -- In this task, I decided to use median values instead of averages,
 -- because the dataset contains outliers, which was clear after checking the max and min values
 -- of the estimated car prices.
