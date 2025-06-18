@@ -23,9 +23,9 @@ The data simulates a real-world peer-to-peer car rental platform, similar to Tur
 The original dataset was provided as a single flat table. To improve clarity and support deeper analysis, it was normalized into three relational tables using PostgreSQL best practices:
 
 Table Name	Description
-`vehicles`	Contains all details about the vehicles available for rent (make, model, type, year, etc.)
-`rentals`	Links rental records to a vehicle and location. Also includes rental price, ratings, and review data. Each row can contain multiply number of trips taken depending on the vehicle id and location
-`locations`	Stores rental locations with geographic coordinates and airport city information
+- `vehicles`	Contains all details about the vehicles available for rent (make, model, type, year, etc.)
+- `rentals`	Links rental records to a vehicle and location. Also includes rental price, ratings, and review data. Each row can contain multiply number of trips taken depending on the vehicle id and location
+- `locations`	Stores rental locations with geographic coordinates and airport city information
 
 This restructuring helps ensure data integrity and simplifies analytical queries, especially for aggregation and reporting dashboards.
 
