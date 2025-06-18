@@ -25,7 +25,44 @@
 
 -- All queries were written and tested in PostgreSQL
 
+-- SQL Database Schema Description
+-- --------------------------------
+-- The original dataset was a denormalized flat file containing rental, vehicle, and location data.
+-- It was normalized into 3 relational tables to ensure data consistency and enable flexible analytics.
+-- This file includes CREATE TABLE statements for the normalized structure, with details on data types and character limits.
 
+-- Table: vehicles
+-- Description: Contains unique vehicle-level attributes.
+-- Columns:
+--   vehicle_id           - INTEGER, Primary key (auto-incremented ID)
+--   vehicle_make         - VARCHAR(60), Car manufacturer (e.g., Toyota, BMW)
+--   vehicle_model        - VARCHAR(60), Specific model of the vehicle
+--   vehicle_type         - VARCHAR(30), Type/category (SUV, sedan, convertible, etc.)
+--   vehicle_year         - SMALLINT, Year of production (e.g., 2018)
+--   fueltype             - VARCHAR(20), Type of fuel used (gasoline, electric, hybrid, etc.)
+--   estimated_car_price  - NUMERIC(10,2), Estimated value of the vehicle in USD (e.g., 27500.00)
+
+-- Table: rentals
+-- Description: Stores rental-related data linked to vehicles and locations.
+-- Columns:
+--   rental_id            - INTEGER, Primary key (unique rental record ID)
+--   owner_id             - INTEGER, ID of the vehicle owner
+--   vehicle_id           - INTEGER, Foreign key referencing vehicles(vehicle_id)
+--   location_id          - INTEGER, Foreign key referencing locations(location_id)
+--   rate_daily           - NUMERIC(15,2), Daily rental price in USD (e.g., 85.00)
+--   rating               - NUMERIC(5,2), Customer satisfaction rating (e.g., 4.65)
+--   rentertripstaken     - INTEGER, Total number of trips taken by renters
+--   reviewcount          - INTEGER, Number of reviews for the rental
+
+-- Table: locations
+-- Description: Stores unique rental location details.
+-- Columns:
+--   location_id          - INTEGER, Primary key (unique location identifier)
+--   location_city        - VARCHAR(100), City where the vehicle is located (e.g., Los Angeles)
+--   location_country     - CHAR(2), 2-letter ISO country code (e.g., US, CA)
+--   location_latitude    - NUMERIC(9,6), Latitude coordinate (e.g., 34.052235)
+--   location_longitude   - NUMERIC(9,6), Longitude coordinate (e.g., -118.243683)
+--   airport_city         - VARCHAR(100), Closest airport city (useful for travel rentals)
 
 -- Basic Descriptive Statistics
 
