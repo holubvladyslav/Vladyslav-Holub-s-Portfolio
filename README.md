@@ -61,10 +61,10 @@ This dashboard and analysis could be useful for:
 
 ## Files Included
 
-- `project_queries.sql` – all SQL scripts used in the analysis
-- `dashboard.twbx` – Tableau workbook
-- `car_rental.csv` – cleaned and enriched dataset
-- `README.md` – project documentation
+- [`project_queries.sql`](https://github.com/holubvladyslav/Vladyslav-Holub-s-Portfolio/blob/main/project_queries.sql) – all SQL scripts used in the analysis
+- [`car_rental_business.twbx`](https://github.com/holubvladyslav/Vladyslav-Holub-s-Portfolio/blob/main/car_rental_business.twbx) – Tableau workbook
+- [`car_project.csv`](https://github.com/holubvladyslav/Vladyslav-Holub-s-Portfolio/blob/main/car_project.csv) – cleaned and enriched dataset
+- [`README.md`](https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/README.md) – project documentation
 
 
 ## About Me
