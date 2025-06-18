@@ -1,4 +1,4 @@
-## Car Rental Dashboard – Data Analysis Project Inspired by Turo
+![image](https://github.com/user-attachments/assets/807afc61-9c74-4ec5-b05c-39810c14e4a5)## Car Rental Dashboard – Data Analysis Project Inspired by Turo
 
 The whole project was inspired by the popular peer-to-peer car rental platform Turo. The idea was simple: to use a dataset that simulates real-life business data related to car rentals in order to help users choose the best vehicle to buy and rent out. The analysis was done under different perspectives: price, popularity, renters satisfaction and ROI.
 
@@ -12,6 +12,22 @@ My goal was to build a Tableau dashboard and support it with strong data analyti
 - Compare daily rental rates and estimated car prices
 
 Also I can not hide the fact that I am passionate about automotive industry, so working on this project was both useful and exciting for me.
+
+## Dataset Overview
+The dataset used in this project contains approximately 11,000 rows of rental data. It includes detailed information about 1,992 unique vehicles and covers nearly 400,000 trips taken by renters.
+
+The data simulates a real-world peer-to-peer car rental platform, similar to Turo. Each row includes various attributes like vehicle details, rental prices, user ratings, number of trips, and locations. This makes it possible to perform deep analysis from different perspectives, such as popularity, profitability, and renter satisfaction.
+
+## Database Structure
+
+The original dataset was provided as a single flat table. To improve clarity and support deeper analysis, it was normalized into three relational tables using PostgreSQL best practices:
+
+Table Name	Description
+`vehicles`	Contains all details about the vehicles available for rent (make, model, type, year, etc.)
+`rentals`	Links rental records to a vehicle and location. Also includes rental price, ratings, and review data. Each row can contain multiply number of trips taken depending on the vehicle id and location
+`locations`	Stores rental locations with geographic coordinates and airport city information
+
+This restructuring helps ensure data integrity and simplifies analytical queries, especially for aggregation and reporting dashboards.
 
 ## Data Cleaning
 
